@@ -1,23 +1,22 @@
 const Hero  = () => {
   return (
-    <div className="w-100% h-100% ">
-      <section className=" positon-relative">
+    <div className="w-100% h-100%">
+      <section>
         <div className="flex justify-center">
-          <img src="src\assets\Frame-h-m.png"></img>
+          <img src="src/assets/Frame-h-m.png" alt="Main Frame" className="w-100% md:max-w-[1000px] object-contain" />
         </div>
       </section>
-      <div className=" w-100% flex justify-end mt-5 mb-[-1]  ">
-        <div className="relative">
+      <div className="w-full flex justify-end mt-5 mb-[-1]">
+        <div className="relative w-70% max-w-[400px] md:max-w-[600px] lg:max-w-[1000px]">
           <img
-            src="src\assets\Group 2.png"
+            src="src/assets/Group 2.png"
             alt="Back"
-            className="object-cover w-full h-full animate-round"
+            className="object-cover w-full h-auto animate-round"
           />
-
           <img
-            src="src\assets\Vector 9.png"
-            alt="Over"
-            className="absolute left-[70px] object-cover w-[26.71px] top-[60px]"
+            src="src/assets/Vector 9.png"
+            alt="Overlay"
+            className="absolute left-[70px] top-[60px] w-[26.71px] h-auto object-contain"
           />
         </div>
       </div>
