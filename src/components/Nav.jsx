@@ -1,14 +1,6 @@
 
 import { useState } from "react";
-
-const navContent = [
-  "Home",
-  "About",
-  "Events",
-  "Committee",
-  "Sponsors",
-  "Contact Us",
-];
+import { navContent } from "../content/navContent";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
